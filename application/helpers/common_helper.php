@@ -205,7 +205,7 @@ if (!function_exists('powered_by')) {
         // remove dash from name
         $pname = str_replace('-', ' ', $pname);
 
-        echo '<p class="text-capitalize">Powered By <a href="http://g-axon.com/" target="_new">G-Axon</a> <span class="text-capitalize pull-right">Current Version <a href="' . CHATBULL_SITEURL . '" target="_new">' . $pname . ' ' . CHATBULL_VERSION . '</a></span></p>';
+        echo '<p class="text-capitalize"> Importadora Alvarado 2019</p>';
     }
 
 }
