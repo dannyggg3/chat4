@@ -519,7 +519,7 @@
 
                     if (response.data.show_feedback_form == 'yes' && $scope.chat_session.session_status == 'closed') {
                         $scope.visible_widget = 'feedback-widget';
-                        $scope.form_title = 'Give Feedback';
+                        $scope.form_title = 'Danos tu opinión';
                     } else if ($scope.chat_session) {
                         $scope.visible_widget = 'chatting-widget';
                         $scope.form_title = 'Welcome';
@@ -933,7 +933,7 @@
 
                                 if (response.show_feedback_form == 'yes') {
                                     $scope.visible_widget = 'feedback-widget';
-                                    $scope.form_title = 'Give Feedback';
+                                    $scope.form_title = 'Danos tu opinión';
                                 } else {
                                     $scope.tags = response.tags;
                                     $scope.reset();

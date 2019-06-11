@@ -100,19 +100,19 @@
                                         <div class="chat-cmodule-widget-content">
                                             <div class="cmodule-help-message">{{settings.offline_heading_message}}</div>
                                             <div class="cmodule-form-group">
-                                                <input class="cmodule-form-control" type="text" name="name" placeholder="Name" ng-class="{'cmodule-error': offlineForm.name.$dirty && offlineForm.name.$invalid}" ng-model="visitor.name" required>
+                                                <input class="cmodule-form-control" type="text" name="name" placeholder="Nombre" ng-class="{'cmodule-error': offlineForm.name.$dirty && offlineForm.name.$invalid}" ng-model="visitor.name" required>
                                             </div>
                                             <div class="cmodule-form-group">
                                                 <input class="cmodule-form-control" type="email" name="email" placeholder="Email" ng-class="{'cmodule-error': offlineForm.email.$dirty && offlineForm.email.$invalid}" ng-model="visitor.email" required>
                                             </div>
                                             <div class="cmodule-form-group" ng-show="settings.show_depaertment_selection_box == 'yes'">
                                                 <select class="cmodule-form-control" ng-model="visitor.requested_tag" ng-required="settings.show_depaertment_selection_box == 'yes'" name="department" ng-class="{'cmodule-error': offlineForm.department.$dirty && offlineForm.department.$invalid}">
-                                                    <option value="">Select Department</option>
+                                                    <option value="">Seleccione un departamento</option>
                                                     <option ng-repeat="option in tags" value="{{option.id}}">{{option.tag_name}}</option>
                                                 </select>
                                             </div>
                                             <div class="cmodule-form-group cmodule-last-item">
-                                                <textarea name="message" class="cmodule-form-control" cols="20" rows="4" placeholder="Your Question...." ng-class="{'cmodule-error': offlineForm.message.$dirty && offlineForm.message.$invalid}" ng-model="visitor.message" required></textarea>
+                                                <textarea name="message" class="cmodule-form-control" cols="20" rows="4" placeholder="Tu pregunta...." ng-class="{'cmodule-error': offlineForm.message.$dirty && offlineForm.message.$invalid}" ng-model="visitor.message" required></textarea>
                                             </div>
                                         </div>
                                     </div>
@@ -133,26 +133,26 @@
                                         <div class="chat-cmodule-widget-content">
                                             <div class="cmodule-help-message">{{settings.welcome_message}}</div>
                                             <div class="cmodule-form-group">
-                                                <input class="cmodule-form-control" type="text" name="name" placeholder="Name" ng-model="visitor.name" ng-class="{'cmodule-error': onlineForm.name.$dirty && onlineForm.name.$invalid}" required>
+                                                <input class="cmodule-form-control" type="text" name="name" placeholder="Nombre" ng-model="visitor.name" ng-class="{'cmodule-error': onlineForm.name.$dirty && onlineForm.name.$invalid}" required>
                                             </div>
                                             <div class="cmodule-form-group">
                                                 <input class="cmodule-form-control" type="email" name="email" placeholder="Email" ng-model="visitor.email" ng-class="{'cmodule-error': onlineForm.email.$dirty && onlineForm.email.$invalid}" required>
                                             </div>
                                             <div class="cmodule-form-group" ng-show="settings.show_depaertment_selection_box == 'yes'">
                                                 <select class="cmodule-form-control" ng-model="visitor.requested_tag" ng-required="settings.show_depaertment_selection_box == 'yes'" name="department" ng-class="{'cmodule-error': onlineForm.department.$dirty && onlineForm.department.$invalid}">
-                                                    <option value="">Select Department</option>
+                                                    <option value="">Seleccione un departamento</option>
                                                     <option ng-repeat="option in tags" value="{{option.id}}">{{option.tag_name}}</option>
                                                 </select>
                                             </div>
                                             <div class="cmodule-form-group cmodule-last-item">
-                                                <textarea name="message" class="cmodule-form-control" cols="20" rows="4" placeholder="Your Question...." ng-model="visitor.message" ng-class="{'cmodule-error': onlineForm.message.$dirty && onlineForm.message.$invalid}" required></textarea>
+                                                <textarea name="message" class="cmodule-form-control" cols="20" rows="4" placeholder="Tu pregunta...." ng-model="visitor.message" ng-class="{'cmodule-error': onlineForm.message.$dirty && onlineForm.message.$invalid}" required></textarea>
                                             </div>
                                         </div>
                                     </div>
                                 </div>	
                             </div>		
                             <div class="chat-cmodule-footer">
-                                <button id="cmodule-online-submit" class="chatnox-btn-default" type="submit">Chat Now</button>
+                                <button id="cmodule-online-submit" class="chatnox-btn-default" type="submit">Iniciar Chat</button>
                             </div>
                         </form>
                     </div>
@@ -170,14 +170,14 @@
                                                 <div data-range-slider data-floor="1" data-ceiling="5" data-step="1" data-precision="2" data-highlight="left" data-ng-model="feedback.rating"></div>
                                             </div>
                                             <div class="cmodule-form-group cmodule-last-item">
-                                                <textarea name="message" class="cmodule-form-control" cols="20" rows="4" placeholder="Write your Feedback...." ng-model="feedback.feedback_text" ng-class="{'cmodule-error': feedbackForm.message.$dirty && feedbackForm.message.$invalid}" ></textarea>
+                                                <textarea name="message" class="cmodule-form-control" cols="20" rows="4" placeholder="Escriba sus comentarios...." ng-model="feedback.feedback_text" ng-class="{'cmodule-error': feedbackForm.message.$dirty && feedbackForm.message.$invalid}" ></textarea>
                                             </div>
                                         </div>
                                     </div>
                                 </div>		
                             </div>
                             <div class="chat-cmodule-footer">
-                                <button id="cmodule-online-submit" class="chatnox-btn-default" type="submit">Submit</button>
+                                <button id="cmodule-online-submit" class="chatnox-btn-default" type="submit">Enviar</button>
                             </div>
                         </form>
                     </div>
@@ -214,7 +214,7 @@
                         <div class="cmodule-modal" ng-show="ask_to_confirm == 'yes' && confirm_close_session == 'no'" ng-class="{'cmodule-in':ask_to_confirm == 'yes'}">
                             <div class="cmodule-modal-dialog">
                                 <div class="cmodule-modal-content">
-                                    <div class="cmodule-modal-body">Are you sure you want to end this chat session?</div>
+                                    <div class="cmodule-modal-body">¿Estás seguro de que quieres terminar esta sesión de chat?</div>
                                     <div class="cmodule-modal-footer">
                                         <a href="#" ng-click="confirm_close_session = 'yes';end_chat($event)">Yes</a>
                                         <a href="#" ng-click="ask_to_confirm = 'no'">No</a>
@@ -225,7 +225,7 @@
                         <div class="cmodule-modal" ng-show="ask_for_transcript == 'yes'" ng-class="{'cmodule-in':ask_for_transcript == 'yes'}">
                             <div class="cmodule-modal-dialog">
                                 <div class="cmodule-modal-content">
-                                    <div class="cmodule-modal-body">Do you want transcript in email?</div>
+                                    <div class="cmodule-modal-body">¿Quieres la transcripción en tu email?</div>
                                     <div class="cmodule-modal-footer">
                                         <a href="#" ng-click="settings.send_chat_transcript_to_visitor = 'yes';end_chat($event)">Yes</a>
                                         <a href="#" ng-click="settings.send_chat_transcript_to_visitor = 'no';end_chat($event)">No</a>
@@ -245,7 +245,7 @@
                         <div id="chat-cmodule-footer" class="chat-cmodule-footer">
                             <form name="chatForm" id="chatForm" action="" method="post" ng-submit="send_message($event) && chatForm.$valid">
                                 <div class="cmodule-message-box">
-                                    <textarea focus-on-change="new_message" ng-focus="chatboxState = 'focus'" ng-blur="chatboxState = 'blur'" ng-model="new_message" ng-keypress="submit_message($event)" ng-disabled="chat_session.session_status == 'closed'" id="message" cols="20" rows="2" class="cmodule-form-control" placeholder="Your Message..." required></textarea>
+                                    <textarea focus-on-change="new_message" ng-focus="chatboxState = 'focus'" ng-blur="chatboxState = 'blur'" ng-model="new_message" ng-keypress="submit_message($event)" ng-disabled="chat_session.session_status == 'closed'" id="message" cols="20" rows="2" class="cmodule-form-control" placeholder="Tu mensaje..." required></textarea>
                                 </div>
                                 <div class="chat-cmodule-chat-toolbar">
                                     <span class="chat-cmodule-chat-toolbar-btn smilies-handle" smilies-selector="new_message" smilies-placement="top-left" smilies-title="Smilies"></span>

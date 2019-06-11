@@ -36,7 +36,7 @@
                     <div class="clearfix">
                         <div class="col-lg-6">
                             <div class="form-group">
-                                <input class="form-control" type="text" placeholder="Name" ng-model="user.name" required />
+                                <input class="form-control" type="text" placeholder="Nombre" ng-model="user.name" required />
                             </div>
 
                             <div class="form-group">

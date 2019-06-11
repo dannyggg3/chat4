@@ -51,7 +51,7 @@
             </div>
             <div class="chat-cmodule-footer">
                 <div class="cmodule-message-box">
-                    <textarea cols="20" rows="2" class="cmodule-form-control" placeholder="Your Message..."></textarea>
+                    <textarea cols="20" rows="2" class="cmodule-form-control" placeholder="Tu mensaje..."></textarea>
                 </div>
             </div>
         </div>
@@ -91,7 +91,7 @@
             </div>
             <div class="chat-cmodule-footer">
                 <div class="cmodule-message-box">
-                    <textarea cols="20" rows="2" class="cmodule-form-control" placeholder="Your Message..."></textarea>
+                    <textarea cols="20" rows="2" class="cmodule-form-control" placeholder="Tu mensaje..."></textarea>
                 </div>
             </div>
         </div>
@@ -143,7 +143,7 @@
             </div>
             <div class="chat-cmodule-footer">
                 <div class="cmodule-message-box">
-                    <textarea cols="20" rows="2" class="cmodule-form-control" placeholder="Your Message..."></textarea>
+                    <textarea cols="20" rows="2" class="cmodule-form-control" placeholder="Tu mensaje..."></textarea>
                 </div>
             </div>
         </div>

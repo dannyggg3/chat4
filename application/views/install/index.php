@@ -68,7 +68,7 @@
                             <div class="col-lg-6">
                                 <legend>Setup your admin account</legend>
                                 <div class="form-group">
-                                    <input type="text" name="name" id="name" ng-model="user.name" value="<?php echo $this->input->post('name'); ?>" class="form-control" placeholder="Name" required>
+                                    <input type="text" name="name" id="name" ng-model="user.name" value="<?php echo $this->input->post('name'); ?>" class="form-control" placeholder="Nombre" required>
                                     <?php echo form_error('name'); ?>
                                 </div>
 

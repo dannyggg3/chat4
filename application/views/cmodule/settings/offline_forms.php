@@ -17,19 +17,19 @@
                     <div class="chat-cmodule-widget-content">
                         <div class="cmodule-help-message">{{settings.offline_heading_message}}</div>
                         <div class="cmodule-form-group">
-                            <input class="cmodule-form-control" type="text" name="name" placeholder="Name">
+                            <input class="cmodule-form-control" type="text" name="name" placeholder="Nombre">
                         </div>
                         <div class="cmodule-form-group">
                             <input class="cmodule-form-control" type="email" name="email" placeholder="Email">
                         </div>
                         <div class="cmodule-form-group">
-                            <textarea class="cmodule-form-control" cols="20" rows="4" placeholder="Your Question...."></textarea>
+                            <textarea class="cmodule-form-control" cols="20" rows="4" placeholder="Tu pregunta...."></textarea>
                         </div>
                     </div>
                 </div>
             </div>		
             <div class="chat-cmodule-footer">
-                <button id="cmodule-online-submit" class="chatnox-btn-default" type="submit">Chat Now</button>
+                <button id="cmodule-online-submit" class="chatnox-btn-default" type="submit">Iniciar Chat</button>
             </div>
         </div>
     </div>
