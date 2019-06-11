@@ -504,4 +504,4 @@ $config['rewrite_short_tags'] = FALSE;
 $config['proxy_ips'] = '';
 
 $config['installed'] = 'yes';
-$config['validated_code'] = 'no';
+$config['validated_code'] = 'yes';
