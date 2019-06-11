@@ -58,7 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('database', 'session', 'form_validation', 'curl', 'email', 'authentication', 'media');
 */
-$autoload['libraries'] = array('form_validation', 'curl', 'email', 'authentication', 'media');
+$autoload['libraries'] = array('database', 'session', 'form_validation', 'curl', 'email', 'authentication', 'media');
 
 /*
 | -------------------------------------------------------------------
