@@ -119,7 +119,7 @@
                                 </div>	
                             </div>	
                             <div class="chat-cmodule-footer">
-                                <button id="cmodule-offline-submit" class="chatnox-btn-default" type="submit">Send Now</button>
+                                <button id="cmodule-offline-submit" class="chatnox-btn-default" type="submit">Enviar Ahora</button>
                             </div>
                         </form>
                     </div>
