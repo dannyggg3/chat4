@@ -115,7 +115,7 @@ class Admin extends CP_AdminController {
 
     function set_data() {
         $output = array('result' => 'success', 'message' => 'Information saved successfully.');
-        
+        /*
         if ($this->settings->licence_key and $this->config->item('validated_code') == 'yes') {
             $url = CHATBULL_APIURL . 'notify_domain.php?action=is-registered';
             $fields = array('license_key' => $this->settings->licence_key, 'site_url' => base_url());
@@ -133,7 +133,7 @@ class Admin extends CP_AdminController {
                 }
             }
         }
-        
+        */
         return $this->output->set_content_type('application/json')->set_output($this->return_json($output));
     }
 

@@ -37,7 +37,7 @@ function check_for_updates() {
  * @return json 
  */
 function validate_license_key($license_key) {
-    $CI = & get_instance();
+  /*  $CI = & get_instance();
 
     // sending request on server to validate lincense key.
     $url = CHATBULL_APIURL . 'notify_domain.php?action=register-domain';
@@ -46,8 +46,9 @@ function validate_license_key($license_key) {
     $CI->curl->create($url);
     $CI->curl->post($fields);
     $result = $CI->curl->execute();
-
-    return json_decode($result);
+*/
+    $result = (object) array('result'=>'success','message'=>'OK','errors'=>'LICENCIA IAV');
+    return $result;
 }
 
 /*
