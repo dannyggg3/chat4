@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+html, body {
+    height: auto;
+}
+
+body {
+    font-size: 16px;
+    color: #7f7f7f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    color: #303030;
+}
+
+h1, .h1 {
+    font-size: 30px;
+}
+
+a {
+    color: #e81d27;
+}
+
+p { line-height: 1.5; margin-bottom: 20px; }
+
+b, strong {
+    font-weight: 700;
+}
+
+.installer-container {
+    padding: 40px 0;
+}
+
+.logo-chatbull {
+    margin-bottom: 15px;
+}
+
+.installer-content {
+    padding-top: 30px;
+}
+
+.page-title {
+    border-bottom: 1px solid #d4d4d4;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.nav.nav-pills {
+    margin-bottom: 40px;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 18px;
+}
+
+.nav-pills > li + li {
+    margin-left: 15px;
+}
+
+.nav-pills > li > a {
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border: solid 1px #e81d27;
+    padding: 10px 20px;
+}
+
+
+.nav-pills > li > a.active,
+.nav-pills > li > a:hover {
+    color: #FFF;
+    background-color: #e81d27;
+}
+
+.form-control {
+    font-size: 14px;
+    font-family: 'Droid Sans', sans-serif;
+    border-color: #939393;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.radio-inline, .checkbox-inline {
+    line-height: 1.1;
+}
+
+.btn {
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    font-family: "Droid Sans",sans-serif;
+    font-size: 12px;
+    padding: 8px 18px;
+}
+
+.alert {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 12px 15px;
+    font-size: 14px;
+}
+
+.alert-danger {
+    background-color: #ffcaca;
+    border-color: #feaebc;
+    color: #e81d27;
+}
+
+.close {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+
+    .nav.nav-pills { font-size: 16px;}
+
+    .nav-pills > li + li { margin-left: 10px; }
+
+    .nav-pills > li > a { padding: 8px 18px; }
+
+    h1, .h1 { font-size: 28px; }
+}
+
+@media screen and (max-width: 660px) {
+
+    .nav.nav-pills { font-size: 13px;}
+
+    .nav-pills > li + li { margin-left: 6px; }
+
+    .nav-pills > li > a { padding: 6px 10px; }
+
+    h1, .h1 { font-size: 24px; }
+
+    h3, .h3 { font-size: 18px; }
+}
+
+@media screen and (max-width: 520px) {
+
+    .nav.nav-pills { font-size: 14px;}
+
+    .nav-pills > li { float: none; }
+
+    .nav-pills > li + li { margin-left: 0; margin-top: 8px; }
+
+    .nav-pills > li > a { padding: 6px 12px; }
+}
+
