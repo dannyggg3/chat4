@@ -1253,7 +1253,7 @@ window.Modernizr = (function( window, document, undefined ) {
           'elements': options.elements || 'abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output progress section summary template time video',
 
           /**
-           * current version of html5shiv
+           * Importadora Alvarado of html5shiv
            */
           'version': version,
 

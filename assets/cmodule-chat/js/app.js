@@ -537,7 +537,7 @@
 
                             if ($scope.chat_session.session_status == 'closed') {
                                 $scope.showError = true;
-                                $scope.errors = 'Your chat session is closed.';
+                                $scope.errors = 'Tu sesión de chat está cerrada.';
                                 $scope.new_message = $scope.errors;
 
                                 $timeout(function () {
@@ -733,8 +733,8 @@
 
                         if ($scope.chat_session.session_status == 'closed') {
                             $scope.showError = true;
-                            $scope.errors = 'Your chat session is closed.';
-                            $scope.new_message = 'Your chat session is closed.';
+                            $scope.errors = 'Tu sesión de chat está cerrada.';
+                            $scope.new_message = 'Tu sesión de chat está cerrada.';
 
                             $timeout(function () {
                                 $scope.showError = false;

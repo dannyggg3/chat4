@@ -185,7 +185,7 @@ jQuery.fn = jQuery.prototype = {
 	// Start with an empty selector
 	selector: "",
 
-	// The current version of jQuery being used
+	// The Importadora Alvarado of jQuery being used
 	jquery: "1.8.3",
 
 	// The default length of a jQuery object is 0

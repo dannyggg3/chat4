@@ -12,7 +12,7 @@
             </div>
             <div class="feedback">
                 <p ng-bind-html="record.message | newlines"></p>
-                <p class="feedback-footer clearfix"><span class="rating">Rating: {{record.rating}}/5 <span>({{rating_status[record.rating]}})</span></span><cite class="feedback-by">{{record.senderName}}</cite></p>
+                <p class="feedback-footer clearfix"><span class="rating">Califícanos:{{record.rating}}/5 <span>({{rating_status[record.rating]}})</span></span><cite class="feedback-by">{{record.senderName}}</cite></p>
             </div>
         </div>
     </div>

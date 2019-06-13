@@ -1,23 +1,23 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['user_added'] = 'Agent has been added successfully.';
-$lang['user_updated'] = 'Agent has been updated successfully.';
-$lang['profile_updated'] = 'Information has been updated successfully.';
-$lang['password_updated'] = 'Password has been updated successfully.';
-$lang['user_status_changed'] = 'Status has been changed successfully.';
-$lang['confirm_deleted'] = 'Are you sure you want to delete this user?';
-$lang['user_deleted'] = 'User has been deleted successfully.';
+$lang['user_added'] = 'El agente ha sido agregado exitosamente.';
+$lang['user_updated'] = 'El agente se ha actualizado con éxito.';
+$lang['profile_updated'] = 'La información se ha actualizado con éxito.';
+$lang['password_updated'] = 'La contraseña se ha actualizado correctamente.';
+$lang['user_status_changed'] = 'El estado ha sido cambiado con éxito';
+$lang['confirm_deleted'] = '¿Estás seguro de que quieres eliminar a este usuario?';
+$lang['user_deleted'] = 'El usuario ha sido eliminado con éxito.';
 
-$lang['add_new_user'] = 'Add new Agent';
-$lang['edit_user'] = 'Edit Agent Details';
-$lang['edit_profile'] = 'Edit Profile';
-$lang['change_password'] = 'Change Password';
-$lang['reset_link_sent'] = 'Reset Password Link has been sent to your email.check your email.';
-$lang['reset_link_not_sent'] = 'Reset Password Link has not sent to your email due to some problem.';
-$lang['email_not_found'] = 'Email is not exists in database.';
+$lang['add_new_user'] = 'Agregar un nuevo agente';
+$lang['edit_user'] = 'Editar detalles del agente';
+$lang['edit_profile'] = 'Editar perfíl';
+$lang['change_password'] = 'Cambiar Contraseña';
+$lang['reset_link_sent'] = 'El enlace para restablecer la contraseña se ha enviado a su correo electrónico. Revise su correo electrónico.';
+$lang['reset_link_not_sent'] = 'El enlace de restablecimiento de la contraseña no se ha enviado a su correo electrónico debido a algún problema.';
+$lang['email_not_found'] = 'El correo electrónico no existe en la base de datos.';
 
-$lang['invalid_pass_token'] = 'Token is missing or invalid.';
-$lang['token_expired'] = 'Token is expired.';
-$lang['have_rememeber'] = 'Login here.';
-$lang['profile_pic_deleted'] = 'Profile picture has been removed.';
+$lang['invalid_pass_token'] = 'El token falta o no es válido.';
+$lang['token_expired'] = 'El token ha caducado.';
+$lang['have_rememeber'] = 'Entre aquí.';
+$lang['profile_pic_deleted'] = 'La foto de perfil ha sido eliminada..';

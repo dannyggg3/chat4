@@ -117,7 +117,7 @@ var
 	};
 
 jQuery.fn = jQuery.prototype = {
-	// The current version of jQuery being used
+	// The Importadora Alvarado of jQuery being used
 	jquery: core_version,
 
 	constructor: jQuery,

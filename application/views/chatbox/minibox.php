@@ -111,7 +111,7 @@
                             <div class="chat-cmodule-widget-content">
                                 <div class="cmodule-help-message"><strong class="cmodule-strong">{{settings.feedback_heading_message}}</strong></div>
                                 <div class="cmodule-form-group">
-                                    <p class="cmodule-rating">Rating: <span class="cmodule-badge-success">{{feedback.rating}}</span> <strong class="cmodule-rating-string">{{rating_status[feedback.rating]}}</strong></p>
+                                    <p class="cmodule-rating">Califícanos:<span class="cmodule-badge-success">{{feedback.rating}}</span> <strong class="cmodule-rating-string">{{rating_status[feedback.rating]}}</strong></p>
                                     <div data-range-slider data-floor="1" data-ceiling="5" data-step="1" data-precision="2" data-highlight="left" data-ng-model="feedback.rating"></div>
                                 </div>
                                 <div class="cmodule-form-group cmodule-last-item">

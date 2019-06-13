@@ -1,15 +1,15 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['request_accepted'] = "Chat request accepted. Please wait for the chat session to begin.";
-$lang['forwarded'] = "Forwarded";
-$lang['agent'] = "Agent";
-$lang['change_password_request_sent'] = 'Your request has been sent Successfully.';
-$lang['email_not_exits'] = 'There is no agent found with this email.';
+$lang['request_accepted'] = "Solicitud de chat aceptada. Por favor, espere a que comience la sesión de chat.";
+$lang['forwarded'] = "Reenviado";
+$lang['agent'] = "Agente";
+$lang['change_password_request_sent'] = 'Su solicitud ha sido enviada con éxito.';
+$lang['email_not_exits'] = 'No se ha encontrado ningún agente con este correo electrónico.';
 
-$lang['enable_push_notification'] = 'Enable Push Messages';
-$lang['initiating_chat'] = 'Initiating chat....';
-$lang['loading'] = 'Loading....';
-$lang['sending_file'] = 'Sending file...';
-$lang['exceeded_filesize'] = 'Size limit exceeded.';
-$lang['invalid_filetype'] = 'Invalid file type.';
+$lang['enable_push_notification'] = 'Habilitar mensajes push';
+$lang['initiating_chat'] = 'Iniciando chat ....';
+$lang['loading'] = 'Cargando....';
+$lang['sending_file'] = 'Enviando archivo...';
+$lang['exceeded_filesize'] = 'Límite de tamaño excedido.';
+$lang['invalid_filetype'] = 'tipo de archivo invalido.';

@@ -12,7 +12,7 @@
         $scope.pagetitle = 'Chatbull Updates';
 
         /*
-         * To check next version of current version
+         * To check next version of Importadora Alvarado
          * @param {type} event
          */
 

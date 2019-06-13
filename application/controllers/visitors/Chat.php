@@ -922,7 +922,7 @@ class Chat extends CP_VisitorController {
                         $agent = $chatbox['agent'];
 
                         //adding message in chat session.
-                        $this->chat_message->model_data['chat_message'] = $feedback_text . ' and your rating is ' . $this->input->post('rating') . ' (' . $rating_status[$this->input->post('rating')] . ')';
+                        $this->chat_message->model_data['chat_message'] = $feedback_text . ' y tu calificación es ' . $this->input->post('rating') . ' (' . $rating_status[$this->input->post('rating')] . ')';
                         $this->chat_message->model_data['chat_session_id'] = $chat_session->id;
                         $this->chat_message->model_data['message_status'] = 'unread';
                         $this->chat_message->model_data['sender_id'] = $visitor->id;
@@ -936,7 +936,7 @@ class Chat extends CP_VisitorController {
                         $notification_data['notification_type'] = 'message';
                         $notification_data['chat_session_id'] = $chat_session->id;
                         $notification_data['receiver_id'] = $agent->id;
-                        $notification_data['message'] = $feedback_text . ' and your rating is ' . $this->input->post('rating') . ' (' . $rating_status[$this->input->post('rating')] . ')';
+                        $notification_data['message'] = $feedback_text . ' y tu calificación es ' . $this->input->post('rating') . ' (' . $rating_status[$this->input->post('rating')] . ')';
                         $notification_data['display_message'] = $visitor->name . " sent you his feedback.";
                         $notification_data['sender_id'] = $visitor->id;
                         $notification_data['notification_status'] = 'unread';
@@ -952,7 +952,7 @@ class Chat extends CP_VisitorController {
                         $message['senderId'] = $visitor->id;
                         $message['name'] = $visitor->name;
                         $message['profilePic'] = $this->media->get_thumbnail($visitor->profile_pic, PROFILE_PICS, $visitor->email, '404');
-                        $message['message'] = $feedback_text . ' and your rating is ' . $this->input->post('rating') . ' (' . $rating_status[$this->input->post('rating')] . ')';
+                        $message['message'] = $feedback_text . ' y tu calificación es ' . $this->input->post('rating') . ' (' . $rating_status[$this->input->post('rating')] . ')';
                         $message['rating'] = $this->input->post('rating');
                         $message['message_type'] = 'text';
                         $message['message_meta'] = '';

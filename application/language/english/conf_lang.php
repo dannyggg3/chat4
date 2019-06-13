@@ -1,107 +1,107 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['chat_window'] = 'Chat Window';
-$lang['offline_form'] = 'Offline Form';
-$lang['visitor_widget'] = 'Visitor Widget';
+$lang['chat_window'] = 'Ventana de chat';
+$lang['offline_form'] = 'Formulario sin conexión';
+$lang['visitor_widget'] = 'Widget de visitante';
 
-$lang['site'] = 'Site Settings';
+$lang['site'] = 'Configuración del sitio';
 $lang['general'] = 'General';
-$lang['content_and_info'] = 'Content &amp; Info';
-$lang['choose_a_theme'] = 'Theme Settings';
+$lang['content_and_info'] = 'Contenido &amp; Información';
+$lang['choose_a_theme'] = 'Configuración de tema';
 
-$lang['visitor_widget_type'] = 'Widget Type';
-$lang['chatbar'] = 'Chat Bar';
-$lang['chaticon'] = 'Chat Icon';
+$lang['visitor_widget_type'] = 'Tipo de Widget';
+$lang['chatbar'] = 'Barra de chat';
+$lang['chaticon'] = 'Icono de chat';
 
-$lang['chat_icon_size'] = 'Chat icon size';
-$lang['large'] = 'Large';
-$lang['medium'] = 'Medium';
-$lang['small'] = 'Small';
-$lang['installation'] = 'Installation';
-$lang['enable_online_animation'] = 'Enable/Disable Online Animation';
-$lang['enable_specific_agent_request'] = 'Suggest agent in Chatbox Randomly to the visitor';
-$lang['enable_file_sharing'] = 'Enable/Disable File Sharing';
-$lang['file_upload_size'] = 'File upload size';
-$lang['filesize_unit'] = 'In kilobytes (KB)';
-$lang['allowed_filetypes'] = 'Allowed file types';
-$lang['allowed_filetypes_help'] = 'File extenstions will be <strong>pipe-separated ( | )</strong> seprated.';
-$lang['allowed_filetypes_example'] = 'Exa: <strong> .docx | .txt | .gif | .jpg | .png </strong>';
+$lang['chat_icon_size'] = 'Tamaño del icono de chat';
+$lang['large'] = 'Grande';
+$lang['medium'] = 'Mediano';
+$lang['small'] = 'Pequeño';
+$lang['installation'] = 'Instalación';
+$lang['enable_online_animation'] = 'Activar / Desactivar animación en línea';
+$lang['enable_specific_agent_request'] = 'Sugerir agente en Chatbox aleatoriamente al visitante';
+$lang['enable_file_sharing'] = 'Habilitar / Deshabilitar el intercambio de archivos';
+$lang['file_upload_size'] = 'Tamaño de carga del archivo';
+$lang['filesize_unit'] = 'En kilobytes (KB)';
+$lang['allowed_filetypes'] = 'Tipos de archivo permitidos';
+$lang['allowed_filetypes_help'] = 'Las extensiones de archivos serán <strong>pipe-separated ( | )</strong> seprated.';
+$lang['allowed_filetypes_example'] = 'Ejem: <strong> .docx | .txt | .gif | .jpg | .png </strong>';
 
-$lang['licence_key'] = 'Purchase Code';
-$lang['verify'] = 'Verify';
-$lang['cancel'] = 'Cancel';
-$lang['verified'] = 'Verified';
-$lang['change_key'] = 'Change Purchase Code';
-$lang['reset_key'] = 'Reset Registration';
-$lang['reset_confirm'] = 'Are confirm to reset your registration. Your app will stop working.';
-$lang['site_logo'] = 'Site Logo';
-$lang['site_name'] = 'Site Title';
+$lang['licence_key'] = 'Código';
+$lang['verify'] = 'Verificar';
+$lang['cancel'] = 'Cancelar';
+$lang['verified'] = 'Verificado';
+$lang['change_key'] = 'Cambiar Código';
+$lang['reset_key'] = 'Restablecer registro';
+$lang['reset_confirm'] = 'Se confirma para restablecer su registro. Tu aplicación dejará de funcionar.';
+$lang['site_logo'] = 'Logo del sitio';
+$lang['site_name'] = 'Título del sitio';
 $lang['site_email'] = 'Email';
-$lang['enable_disable_chat'] = 'Enable/Disable Chat';
-$lang['time_interwal'] = 'Time duration';
-$lang['in_seconds'] = 'In seconds';
-$lang['time_interwal_help'] = 'Time duration beetween chat request.';
+$lang['enable_disable_chat'] = 'Habilitar / deshabilitar chat';
+$lang['time_interwal'] = 'Duración de tiempo';
+$lang['in_seconds'] = 'En segundos';
+$lang['time_interwal_help'] = 'Duración del tiempo entre la solicitud de chat.';
 
-$lang['open_chatbox_automatically'] = 'Trigger Chatbox Automatically';
+$lang['open_chatbox_automatically'] = 'Activar chatbox automáticamente';
 $lang['open_chatbox_automatically_help'] = 'Selecting yes will pop-out the chatbox automatically if visitor stay on a page for more than the time defined in <strong>Trigger After</strong> field.';
 $lang['time_automatically_open_chatbox'] = 'Trigger After';
-$lang['time_automatically_open_chatbox_help'] = 'The chatbox will automatically pop-out after the seconds defined in this field.';
+$lang['time_automatically_open_chatbox_help'] = 'TEl chatbox se abrirá automáticamente después de los segundos definidos en este campo..';
 
-$lang['chat_mode'] = 'Chat Mode';
-$lang['can_reply_attended_orequests'] = 'Can two agents reply to the same offline request?';
-$lang['enable_feedback_form'] = 'Show feedback form';
-$lang['is_tag_required'] = 'Is it required for the visitor to select a department?';
-$lang['show_depaertment_selection_box'] = 'Show a department selection box to the visitor?';
+$lang['chat_mode'] = 'Modo de chat';
+$lang['can_reply_attended_orequests'] = '¿Pueden dos agentes responder a la misma solicitud fuera de línea?';
+$lang['enable_feedback_form'] = 'Mostrar formulario de comentarios';
+$lang['is_tag_required'] = '¿Se requiere que el visitante seleccione un departamento?';
+$lang['show_depaertment_selection_box'] = 'Mostrar un cuadro de selección de departamento al visitante?';
 
 $lang['initiate_bypass_chat'] = 'Bypass Pre-Chat Form';
-$lang['initiate_bypass_chat_help'] = 'Selecting yes will skip the pre-chat request form for visitors and will raise the chat request immediately.';
-$lang['send_chat_transcript_to_visitor'] = 'Send chat transcript to the visitor?';
+$lang['initiate_bypass_chat_help'] = 'Al seleccionar Sí se omitirá el formulario de solicitud de chat previo para los visitantes y se levantará la solicitud de chat inmediatamente..';
+$lang['send_chat_transcript_to_visitor'] = '¿Enviar la transcripción del chat al visitante?';
 
-$lang['enable'] = 'Enable';
-$lang['disable'] = 'Disable';
+$lang['enable'] = 'Activado';
+$lang['disable'] = 'Desactivado';
 $lang['on'] = 'On';
 $lang['off'] = 'Off';
-$lang['yes'] = 'Yes';
+$lang['yes'] = 'Si';
 $lang['no'] = 'No';
-$lang['ask_to_visiter'] = 'Ask the visitor';
+$lang['ask_to_visiter'] = 'Pregunte al visitante';
 
-$lang['site_lived_year'] = 'Year when you start support';
+$lang['site_lived_year'] = 'Año de inicio de soporte.';
 
-$lang['offline'] = 'Offline';
-$lang['online'] = 'Online';
-$lang['left'] = 'Left';
-$lang['right'] = 'Right';
+$lang['offline'] = 'Desconectado';
+$lang['online'] = 'En línea';
+$lang['left'] = 'Izquierda';
+$lang['right'] = 'Derecha';
 
-$lang['offline_form_title'] = 'Offline form title';
-$lang['online_form_title'] = 'Online form title';
-$lang['chat_start_title'] = 'Chatbox title';
-$lang['default_avatar'] = 'Choose default avatar';
-$lang['upload'] = 'Upload';
-$lang['avatar_uploaded'] = 'Image uploaded';
+$lang['offline_form_title'] = 'Título de formulario sin conexión';
+$lang['online_form_title'] = 'Título del formulario en línea';
+$lang['chat_start_title'] = 'Titulo de ChatIAV';
+$lang['default_avatar'] = 'Elegir avatar predeterminado';
+$lang['upload'] = 'Subir';
+$lang['avatar_uploaded'] = 'Imagen cargada';
 
-$lang['set_welcome_message'] = 'Welcome message';
-$lang['set_waiting_message'] = 'Waiting message';
-$lang['set_offline_heading_message'] = 'Agent offline message';
-$lang['set_offline_submission_message'] = 'Offline request success message';
-$lang['set_feedback_heading_message'] = 'Request for feedback';
+$lang['set_welcome_message'] = 'Mensaje de bienvenida';
+$lang['set_waiting_message'] = 'Mensaje de espera';
+$lang['set_offline_heading_message'] = 'Mensaje de agente desconectado';
+$lang['set_offline_submission_message'] = 'Mensaje de éxito de solicitud sin conexión';
+$lang['set_feedback_heading_message'] = 'Solicitud de comentarios';
 $lang['set_feedback_submission_message'] = 'Set Feedback success message';
 
-$lang['welcome_message'] = 'Hello Guest! How can I help you today?';
-$lang['waiting_message'] = 'Our agents are already engaged with trying to help out some customers. Please be patient. Someone will be here in a jiffy!';
-$lang['offline_heading_message'] = 'Sorry, no agent currently online. Please leave a message & we will contact you soon.';
-$lang['offline_submission_message'] = 'Thank you for contacting us! we will get back to you within 24 hours.';
-$lang['feedback_heading_message'] = 'Your opinion matters a lot. Kindly leave your feedback.';
-$lang['feedback_submission_message'] = 'Your Feedback has been sent successfully.';
+$lang['welcome_message'] = 'Hola invitado Cómo puedo ayudarte hoy?';
+$lang['waiting_message'] = 'Nuestros agentes ya están comprometidos con tratar de ayudar a algunos clientes. Por favor sea paciente. Alguien estará aquí en un santiamén!';
+$lang['offline_heading_message'] = 'Lo sentimos, ningún agente actualmente en línea. Por favor, deje un mensaje y nos pondremos en contacto con usted pronto.';
+$lang['offline_submission_message'] = '¡Gracias por contactarnos! Nos pondremos en contacto con usted en 24 horas.';
+$lang['feedback_heading_message'] = 'Tu opinión importa mucho. Por favor, deje sus comentarios.';
+$lang['feedback_submission_message'] = 'Su comentario ha sido enviado con éxito.';
 
-$lang['choose_theme'] = 'Choose Theme';
-$lang['set_position'] = 'Set Position';
+$lang['choose_theme'] = 'Escoge un tema';
+$lang['set_position'] = 'Posición de ajuste';
 
-$lang['classic'] = 'Classic';
-$lang['bubbles'] = 'Bubbles';
-$lang['bubbles_with_avatar'] = 'Bubbles with Avatar';
+$lang['classic'] = 'Clásica';
+$lang['bubbles'] = 'Burbujas';
+$lang['bubbles_with_avatar'] = 'Burbujas con avatar';
 
-$lang['shape_color'] = 'Shape Color';
-$lang['text_color'] = 'Text Color';
-$lang['background_color'] = 'Background Color';
-$lang['title_color'] = 'Title Color';
+$lang['shape_color'] = 'Color de la forma';
+$lang['text_color'] = 'Color de texto';
+$lang['background_color'] = 'Color de fondo';
+$lang['title_color'] = 'Color del título';

@@ -86,8 +86,8 @@ define('EXIT_DATABASE', 8); // database error
 define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 //my custom defines
-define('PRODUCT_NAME', 'chatbull');
-define('CHATBULL_VERSION', '4.2.3');
+define('PRODUCT_NAME', 'ChatIAV');
+define('CHATBULL_VERSION', '2019');
 define('CHATBULL_SITEURL', 'http://chatbull.in/');
 define('CHATBULL_APIURL', 'http://chatbull.in/api/');
 define('UPDATE_DIR', FCPATH . 'updates/');

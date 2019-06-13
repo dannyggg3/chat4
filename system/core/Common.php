@@ -54,10 +54,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 if ( ! function_exists('is_php'))
 {
 	/**
-	 * Determines if the current version of PHP is equal to or greater than the supplied value
+	 * Determines if the Importadora Alvarado of PHP is equal to or greater than the supplied value
 	 *
 	 * @param	string
-	 * @return	bool	TRUE if the current version is $version or higher
+	 * @return	bool	TRUE if the Importadora Alvarado is $version or higher
 	 */
 	function is_php($version)
 	{

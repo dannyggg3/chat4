@@ -188,7 +188,7 @@ if (!function_exists('version_info')) {
         // remove dash from name
         $pname = str_replace('-', ' ', $pname);
 
-        echo '<p class="text-capitalize">Current Version ' . $pname . ' ' . CHATBULL_VERSION . '</p>';
+        echo '<p class="text-capitalize">Importadora Alvarado ' . $pname . ' ' . CHATBULL_VERSION . '</p>';
     }
 
 }

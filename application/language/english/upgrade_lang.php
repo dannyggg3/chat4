@@ -1,20 +1,20 @@
 <?php 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['back_to_home'] = "Back to Home";
-$lang['start_upgrade'] = "Start Upgrade";
-$lang['update_db'] = "Update Database";
-$lang['i_have_lkey'] = "I already have a license key";
-$lang['i_dont_have_lkey'] = "I don't have the license key yet";
-$lang['price'] = "Price";
+$lang['back_to_home'] = "De vuelta a casa";
+$lang['start_upgrade'] = "Iniciar actualización";
+$lang['update_db'] = "Actualizar base de datos";
+$lang['i_have_lkey'] = "Ya tengo una clave de licencia";
+$lang['i_dont_have_lkey'] = "Todavía no tengo la clave de licencia";
+$lang['price'] = "Precio";
 $lang['upgrade_text'] = array(
-    'downloading' => 'Donwloading Chatbull...',
-    'extracting' => 'Extracting files...',
-    'updating_db' => 'Updating Database...',
-    'configuring' => 'Configuration settinngs...',
-    'completed' => 'Upgrade completed successfully'
+    'downloading' => 'Descargando...',
+    'extracting' => 'Extrayendo archivos...',
+    'updating_db' => 'Actualizando Base de datos...',
+    'configuring' => 'Configuraciones de configuración...',
+    'completed' => 'Actualización completada exitosamente'
 );
 
-$lang['db_updated'] = "Chatbull database has been updated successfully.";
-$lang['upgrade_completed'] = "Chatbull Upgrade has been completed successfully.<br>Note: Please clear your browser cache to see changes.";
-$lang['update_completed'] = "Chatbull Update has been completed successfully.<br>Note: Please clear your browser cache to see changes.";
+$lang['db_updated'] = "La base de datos ha sido actualizada exitosamente..";
+$lang['upgrade_completed'] = " La actualización se ha completado con éxito. <br> Nota: borre la memoria caché de su navegador para ver los cambios.";
+$lang['update_completed'] = " La actualización se ha completado con éxito. <br> Nota: borre la memoria caché de su navegador para ver los cambios.";
